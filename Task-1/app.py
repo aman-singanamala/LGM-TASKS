@@ -10,7 +10,7 @@ from sklearn.svm import SVC
 st.set_option('deprecation.showfileUploaderEncoding',False) 
 model = pickle.load(open('model.pkl','rb'))
 
-model= open("model.pkl", "rb")
+model= open('model.pkl', "rb")
 svm_clf=joblib.load(model)
 
 def main():
